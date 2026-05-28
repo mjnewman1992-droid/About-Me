@@ -8,24 +8,13 @@ I blend a decade of high-stakes operational experience with modern data science 
 
 ---
 
-## 📈 Featured Script: Automated Data Cleaning Pipeline
+## 📈 Featured Projects
+### [Data-Science-Logistics-Portfolio](YOUR_REPOSITORY_LINK)
+A centralized hub containing automated Python data cleaning pipelines, SQL query extractions, and statistical predictive modeling workflows. 
+* *Tools Used:* Python (Pandas, NumPy), Advanced SQL
 
-```python
-import pandas as pd
-import numpy as np
+---
 
-def clean_logistics_data(file_path):
-    # Load messy data dataset
-    df = pd.read_csv(file_path)
-    
-    # Drop rows missing critical transit identifiers
-    df.dropna(subset=['transit_id'], inplace=True)
-    
-    # Standardize anomalies and timestamp strings todatetime objects
-    df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
-    
-    # Remove negative duration values (operational anomalies)
-    df = df[df['duration_minutes'] >= 0]
-    
-    print(f"Pipeline successfully optimized. Matrix shape: {df.shape}")
-    return df
+## 📬 Connect with Me
+* 💼 **LinkedIn:** [linkedin.com/in/michael-newman-35233aba](https://linkedin.com/in/michael-newman-35233aba)
+* 📧 **Email:** mjnewman1992@gmail.com
